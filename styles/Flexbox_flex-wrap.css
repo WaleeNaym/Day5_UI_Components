@@ -1,0 +1,41 @@
+.parent {                    /* This is the Flex Container */
+    padding :25px;
+    background-color: blanchedalmond;
+
+    display: flex;  
+
+    justify-content: space-between;
+    gap: 20px;     
+
+    height: 350px;          
+
+    align-items: center;
+
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+
+}
+
+.child {               /* This are the Flex Items */
+    border: 2px solid rgb(15, 158, 160);
+    background: rgb(178, 228, 229);
+    padding: 20px;
+    font-size: 28px;
+    margin: 10px 0px;
+
+}
+
+
+.parent_02{
+    padding :25px;
+    background-color: blanchedalmond;
+
+    display: flex;  
+
+    justify-content: space-between;
+    gap: 20px;     
+
+    height: 350px;          
+
+    align-items: center;
+}

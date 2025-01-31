@@ -1,0 +1,49 @@
+.parent {                    /* This is the Flex Container */
+    padding :25px;
+    background-color: blanchedalmond;
+
+    display: flex;  /*Child boxes are now flexible*/
+
+}
+
+.child {               /* This are the Flex Items */
+    border: 2px solid rgb(15, 158, 160);
+    background: rgb(178, 228, 229);
+    padding: 20px;
+    font-size: 28px;
+    margin: 10px 0px;
+
+    /* display: inline; */  /* Inline ignores top padding & margin, Width & height. So, Child divs overflow their parent. */
+
+}
+
+
+
+
+.parent_02 {                    
+    padding :25px;
+    background-color: blanchedalmond;
+
+}
+.child_02 {               
+    border: 2px solid rgb(15, 158, 160);
+    background: rgb(178, 228, 229);
+    padding: 20px;
+    font-size: 28px;
+    margin: 10px 0px;
+    display: inline;
+}
+
+
+.parent_03 {                    
+    padding :25px;
+    background-color: blanchedalmond;
+
+}
+.child_03 {               
+    border: 2px solid rgb(15, 158, 160);
+    background: rgb(178, 228, 229);
+    padding: 20px;
+    font-size: 28px;
+    margin: 10px 0px;
+}

@@ -1,2 +1,20 @@
 # Css Display properties
 # Css Box Model
+
+# FLexbox:
+~ Flexbox is short for the Flexible Box Layout module.
+~ It is a layout method for arranging items in rows or columns.
+~ Flexbox makes it easier to design a flexible responsive layout structure, without using (legacy float) or positioning methods.
+~ A flexbox always consists of:
+    * A Flex Container - the parent (container) <div> element
+    * Flex Items - the items inside the container <div>
+
+# CSS Gap Property:
+
+# justify-content property:
+
+# align-items property:
+
+# flex-direction property: 
+
+# flex-wrap property:
